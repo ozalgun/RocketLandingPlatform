@@ -16,7 +16,7 @@ Install package >
                             );
 ```
 
-Or you can inject the dependency via constructor injection. Firstly add "LandingChecker" service as "Singlton" e on Startup:
+Or you can inject the dependency via constructor injection. Firstly add "LandingChecker" service as "Singelton" e on Startup:
 
 ```cs
  services.AddSingleton(_ =>new LandingChecker(platformWtih: int, platformHeight: int ,landingPlatformStartPositionX: int,landingPlatformStartPositionY ));
