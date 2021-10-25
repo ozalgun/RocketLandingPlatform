@@ -2,6 +2,15 @@
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
+    <Authors>Özal Algün</Authors>
+    <Company>Free</Company>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Copyright>Copyright (C) Özal Algün. All rights reserved</Copyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
 
 </Project>
