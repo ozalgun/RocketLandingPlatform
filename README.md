@@ -5,8 +5,8 @@
 
 ## Library Utility
 Install package >
-Install-Package RocketLandingPlatform -Version 1.0.0
-After package added, before using library you have to inject  library service  as "Singelton"
+- Install-Package RocketLandingPlatform -Version 1.0.0
+- After package added, before using library you have to inject  library service  as "Singelton"
 
 ```cs
  static IHostBuilder CreateHostBuilder(string[] args) =>
